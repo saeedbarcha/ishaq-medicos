@@ -1,0 +1,1 @@
+export { surgicalProducts } from './medicines';
