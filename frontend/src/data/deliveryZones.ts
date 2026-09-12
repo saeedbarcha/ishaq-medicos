@@ -36,7 +36,7 @@ export const faqs: FaqItem[] = [
     group: 'prescription',
     question: 'How do I order a prescription medicine?',
     answer:
-      'Open Upload prescription, add your name and phone, attach a clear photo or PDF, and wait for pharmacist review. We will not dispense prescription-only items without that review.',
+      'Open Upload prescription, add your name, phone and notes, then send on WhatsApp. The chat opens with those titles and your answers already filled. Attach the photo or PDF in that chat. We will not dispense prescription-only items without pharmacist review.',
   },
   {
     id: 'faq-otc',
@@ -77,7 +77,7 @@ export const faqs: FaqItem[] = [
     group: 'ordering',
     question: 'Can I enquire on WhatsApp?',
     answer:
-      'Yes, when a WhatsApp number is published in store settings. Do not send prescriptions or private medical details through public WhatsApp links.',
+      'Yes. Product questions can use the WhatsApp button. Prescriptions should go through Upload prescription, which opens WhatsApp with your form titles and answers ready to send.',
   },
   {
     id: 'faq-return',

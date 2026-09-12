@@ -23,7 +23,7 @@ const trust = [
 export function Hero() {
   const reduce = useReducedMotion();
   return (
-    <section className="relative overflow-hidden bg-[linear-gradient(165deg,#e5f6fb_0%,#f7eee9_48%,#f4f8fa_100%)]">
+    <section className="relative overflow-hidden bg-[linear-gradient(165deg,#e6eef4_0%,#eef2f5_48%,#f3f6f8_100%)]">
       <div className="orb pointer-events-none absolute -right-24 -top-24 size-[28rem] rounded-full bg-teal/20 blur-3xl" />
       <div className="orb-delay pointer-events-none absolute -bottom-28 left-[-6rem] size-[22rem] rounded-full bg-brass/10 blur-3xl" />
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-12 lg:grid-cols-[1.02fr_0.98fr] lg:py-16">

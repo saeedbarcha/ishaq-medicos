@@ -13,8 +13,8 @@ export function Badge({
   const tones = {
     muted: 'bg-mist text-ink/70',
     teal: 'bg-teal-soft text-teal-deep',
-    rx: 'bg-[#fde8e4] text-[#e12201]',
-    sale: 'bg-[#fde8e4] text-[#b81c01]',
+    rx: 'bg-teal-soft text-teal-deep',
+    sale: 'bg-navy text-white',
     ok: 'bg-[#e7f4ec] text-[#1f6b43]',
     warn: 'bg-[#f7eedc] text-[#8a5a12]',
     danger: 'bg-[#f8e8e6] text-[#9b2c2c]',

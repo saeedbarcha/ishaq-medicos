@@ -10,7 +10,7 @@ export const defaultStoreSettings = {
   city: 'Gilgit',
   district: 'Gilgit',
   phone: '[Phone number to be confirmed]',
-  whatsapp: '[WhatsApp number to be confirmed]',
+  whatsapp: '+923175758510',
   email: '[email to be confirmed]',
   openingHours: '[Opening hours to be confirmed]',
   licenseNumber: '[Pharmacy license number to be confirmed]',
@@ -22,7 +22,7 @@ export const defaultStoreSettings = {
   placeholders: {
     address: true,
     phone: true,
-    whatsapp: true,
+    whatsapp: false,
     email: true,
     hours: true,
     map: true,

@@ -26,7 +26,7 @@ export function TeamCard({ member }: { member: TeamMember }) {
       {showPhoto ? (
         <img src={photo} alt="" className="h-52 w-full object-cover" onError={() => setBroken(true)} />
       ) : (
-        <div className="grid h-52 place-items-center bg-[linear-gradient(135deg,#00A7D4,#E12201)]">
+        <div className="grid h-52 place-items-center bg-[linear-gradient(135deg,#01618D,#000000)]">
           <span className="font-display text-4xl font-semibold text-white">{initials(member.name)}</span>
         </div>
       )}

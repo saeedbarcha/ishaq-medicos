@@ -16,14 +16,14 @@ import { formatPrice } from '@/lib/utils';
 import { useGetAdminDashboardQuery } from '@/store/api/adminApi';
 
 const statusColor: Record<string, string> = {
-  delivered: '#00A7D4',
-  pending: '#E12201',
-  confirmed: '#121820',
-  prescription_review: '#007ea3',
-  preparing: '#4aa8c4',
-  ready_for_pickup: '#00A7D4',
-  dispatched: '#007ea3',
-  cancelled: '#E12201',
+  delivered: '#01618D',
+  pending: '#8a5a12',
+  confirmed: '#000000',
+  prescription_review: '#014866',
+  preparing: '#4d8eab',
+  ready_for_pickup: '#01618D',
+  dispatched: '#014866',
+  cancelled: '#9b2c2c',
 };
 
 const kindLabel: Record<string, string> = {
@@ -72,7 +72,7 @@ function Kpi({
     tone === 'navy'
       ? 'bg-navy text-white shadow-[0_18px_40px_rgba(18,32,51,0.22)]'
       : tone === 'teal'
-        ? 'bg-teal text-white shadow-[0_18px_40px_rgba(0,167,212,0.22)]'
+        ? 'bg-teal text-white shadow-[0_18px_40px_rgba(1,97,141,0.22)]'
         : 'bg-white text-navy shadow-[0_12px_28px_rgba(18,32,51,0.06)] ring-1 ring-line';
   const inner = (
     <div className={`rounded-[1.35rem] p-5 ${wrap}`}>
@@ -299,7 +299,7 @@ export function AdminHome() {
               )}
             </div>
           </section>
-          <section className="rounded-[1.5rem] bg-[linear-gradient(165deg,#00A7D4,#007ea3)] p-5 text-white shadow-[0_18px_40px_rgba(0,167,212,0.28)]">
+          <section className="rounded-[1.5rem] bg-[linear-gradient(165deg,#01618D,#000000)] p-5 text-white shadow-[0_18px_40px_rgba(1,97,141,0.28)]">
             <div className="flex items-center gap-2">
               <Package className="size-4 text-mint" />
               <h2 className="font-display text-lg font-semibold">Stock to watch</h2>

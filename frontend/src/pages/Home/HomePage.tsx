@@ -118,7 +118,7 @@ export function HomePage() {
             <Link
               key={brand.id}
               to={`/brands/${brand.slug}`}
-              className="flex min-h-24 flex-col items-center justify-center rounded-2xl bg-mist px-3 py-5 text-center shadow-[0_8px_18px_rgba(18,32,51,0.04)] transition hover:-translate-y-1 hover:bg-white hover:shadow-[0_16px_32px_rgba(0,167,212,0.1)] hover:ring-1 hover:ring-teal"
+              className="flex min-h-24 flex-col items-center justify-center rounded-2xl bg-mist px-3 py-5 text-center shadow-[0_8px_18px_rgba(18,32,51,0.04)] transition hover:-translate-y-1 hover:bg-white hover:shadow-[0_16px_32px_rgba(1,97,141,0.1)] hover:ring-1 hover:ring-teal"
             >
               <span className="font-display text-lg font-semibold text-navy">{brand.logoText || brand.name}</span>
               <span className="mt-1 text-xs text-ink/50">{brand.name}</span>
@@ -175,7 +175,7 @@ export function HomePage() {
       <Section kicker="Read" title="Health guides" action={{ to: '/blog', label: 'All guides' }}>
         <div className="grid gap-4 md:grid-cols-3">
           {(blogData?.data ?? []).slice(0, 3).map((post) => (
-            <Link key={post.id} to={`/blog/${post.slug}`} className="group overflow-hidden rounded-[1.4rem] bg-white shadow-[0_12px_28px_rgba(18,32,51,0.06)] ring-1 ring-line transition hover:-translate-y-1 hover:ring-teal hover:shadow-[0_22px_44px_rgba(0,167,212,0.12)]">
+            <Link key={post.id} to={`/blog/${post.slug}`} className="group overflow-hidden rounded-[1.4rem] bg-white shadow-[0_12px_28px_rgba(18,32,51,0.06)] ring-1 ring-line transition hover:-translate-y-1 hover:ring-teal hover:shadow-[0_22px_44px_rgba(1,97,141,0.12)]">
               <img src={blogCovers[post.slug] ?? '/images/aisle-medicines.jpg'} alt="" className="h-44 w-full object-cover" />
               <div className="p-6">
                 <p className="text-xs font-bold uppercase tracking-wider text-teal">{post.category}</p>

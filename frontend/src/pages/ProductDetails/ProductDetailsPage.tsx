@@ -154,7 +154,7 @@ export function ProductDetailsPage() {
                   onClick={() => setActive(index)}
                   className={cn(
                     'overflow-hidden rounded-2xl ring-2 ring-transparent transition',
-                    index === active ? 'ring-teal shadow-[0_8px_20px_rgba(0,167,212,0.18)]' : 'hover:ring-line',
+                    index === active ? 'ring-teal shadow-[0_8px_20px_rgba(1,97,141,0.18)]' : 'hover:ring-line',
                   )}
                 >
                   <StorePhoto src={src} alt="" className="aspect-square" />
@@ -332,7 +332,7 @@ export function ProductDetailsPage() {
             ) : null}
           </div>
         </section>
-        <aside className="rounded-[1.6rem] bg-[linear-gradient(165deg,#00A7D4,#007ea3)] p-6 text-sm leading-relaxed text-white shadow-[0_18px_40px_rgba(0,167,212,0.28)]">
+        <aside className="rounded-[1.6rem] bg-[linear-gradient(165deg,#01618D,#000000)] p-6 text-sm leading-relaxed text-white shadow-[0_18px_40px_rgba(1,97,141,0.28)]">
           <p className="text-xs font-bold uppercase tracking-[0.16em] text-mint">Pharmacist note</p>
           <p className="mt-3">
             This page is catalog information. It is not a personal treatment plan. Follow the pack and your clinician.

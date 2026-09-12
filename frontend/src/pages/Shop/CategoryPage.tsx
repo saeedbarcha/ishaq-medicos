@@ -206,7 +206,7 @@ export function CategoryPage({ forcedSlug, healthNeed }: { forcedSlug?: string; 
                 {Array.from({ length: meta.totalPages }).map((_, index) => (
                   <button
                     key={index}
-                    className={`size-10 rounded-full text-sm font-semibold transition ${meta.page === index + 1 ? 'bg-teal text-white shadow-[0_8px_18px_rgba(0,167,212,0.28)]' : 'bg-white ring-1 ring-line hover:ring-teal'}`}
+                    className={`size-10 rounded-full text-sm font-semibold transition ${meta.page === index + 1 ? 'bg-teal text-white shadow-[0_8px_18px_rgba(1,97,141,0.28)]' : 'bg-white ring-1 ring-line hover:ring-teal'}`}
                     onClick={() => setParam('page', String(index + 1))}
                   >
                     {index + 1}

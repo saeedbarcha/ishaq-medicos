@@ -17,7 +17,7 @@ export function BrandsPage() {
           <Link
             key={brand.id}
             to={`/brands/${brand.slug}`}
-            className="rounded-[1.3rem] bg-white p-6 shadow-[0_8px_20px_rgba(18,32,51,0.04)] ring-1 ring-line transition hover:-translate-y-1 hover:shadow-[0_16px_32px_rgba(0,167,212,0.1)] hover:ring-teal"
+            className="rounded-[1.3rem] bg-white p-6 shadow-[0_8px_20px_rgba(18,32,51,0.04)] ring-1 ring-line transition hover:-translate-y-1 hover:shadow-[0_16px_32px_rgba(1,97,141,0.1)] hover:ring-teal"
           >
             <span className="font-display text-xl font-semibold text-navy">{brand.logoText || brand.name}</span>
             <span className="mt-1 block text-sm text-ink/50">{brand.name}</span>

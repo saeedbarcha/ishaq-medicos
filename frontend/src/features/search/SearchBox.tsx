@@ -82,7 +82,7 @@ export function SearchBox({ className, onSubmit, size = 'md' }: { className?: st
           onFocus={() => setOpen(true)}
           placeholder="Search salt, brand, device or skin care"
           className={cn(
-            'w-full rounded-full border border-line bg-mist pl-11 pr-4 text-sm outline-none transition focus:border-teal focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,167,212,0.1)]',
+            'w-full rounded-full border border-line bg-mist pl-11 pr-4 text-sm outline-none transition focus:border-teal focus:bg-white focus:shadow-[0_0_0_4px_rgba(1,97,141,0.1)]',
             size === 'lg' ? 'h-14 bg-white text-base shadow-[0_14px_36px_rgba(18,32,51,0.08)]' : 'h-12',
           )}
           autoComplete="off"

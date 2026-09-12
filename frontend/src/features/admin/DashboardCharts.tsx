@@ -1,9 +1,9 @@
 import { cn } from '@/lib/utils';
 
-const TEAL = '#00A7D4';
-const NAVY = '#121820';
-const BRASS = '#E12201';
-const MINT = '#b8e8f5';
+const TEAL = '#01618D';
+const NAVY = '#000000';
+const BRASS = '#01557A';
+const MINT = '#b8cddc';
 
 export function AreaChart({
   values,

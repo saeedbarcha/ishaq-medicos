@@ -217,7 +217,7 @@ export function QuickAisles() {
             <Link
               key={aisle.to}
               to={aisle.to}
-              className="grid justify-items-center gap-2 rounded-2xl bg-mist px-3 py-5 text-center shadow-[0_6px_16px_rgba(18,32,51,0.04)] ring-1 ring-transparent transition hover:-translate-y-1 hover:bg-white hover:shadow-[0_16px_32px_rgba(0,167,212),0.1)] hover:ring-teal"
+              className="grid justify-items-center gap-2 rounded-2xl bg-mist px-3 py-5 text-center shadow-[0_6px_16px_rgba(18,32,51,0.04)] ring-1 ring-transparent transition hover:-translate-y-1 hover:bg-white hover:shadow-[0_16px_32px_rgba(1,97,141,0.1)] hover:ring-teal"
             >
               <aisle.icon className="size-5 text-teal" aria-hidden />
               <span className="text-sm font-semibold text-navy">{aisle.label}</span>
@@ -308,7 +308,7 @@ export function FeaturedMosaic() {
           <Link
             key={product.id}
             to={`/products/${product.slug}`}
-            className="group flex gap-3 rounded-2xl bg-white p-3 shadow-[0_8px_20px_rgba(18,32,51,0.04)] ring-1 ring-line transition hover:-translate-y-0.5 hover:ring-teal hover:shadow-[0_16px_32px_rgba(0,167,212),0.1)]"
+            className="group flex gap-3 rounded-2xl bg-white p-3 shadow-[0_8px_20px_rgba(18,32,51,0.04)] ring-1 ring-line transition hover:-translate-y-0.5 hover:ring-teal hover:shadow-[0_16px_32px_rgba(1,97,141,0.1)]"
           >
             <ProductArt kind={product.kind} name={product.name} src={product.images?.[0]?.url} className="size-20 shrink-0 rounded-xl" />
             <span className="min-w-0 py-1">
@@ -350,7 +350,7 @@ export function HealthNeedGrid() {
         <Link
           key={need.id}
           to={`/health-needs/${need.slug}`}
-          className="rounded-[1.3rem] bg-white p-5 shadow-[0_8px_20px_rgba(18,32,51,0.04)] ring-1 ring-line transition hover:-translate-y-1 hover:ring-teal hover:shadow-[0_18px_36px_rgba(0,167,212),0.1)]"
+          className="rounded-[1.3rem] bg-white p-5 shadow-[0_8px_20px_rgba(18,32,51,0.04)] ring-1 ring-line transition hover:-translate-y-1 hover:ring-teal hover:shadow-[0_18px_36px_rgba(1,97,141,0.1)]"
         >
           <p className="font-semibold text-navy">{need.name}</p>
           <p className="mt-1 text-sm text-ink/60">{need.description}</p>
@@ -363,7 +363,7 @@ export function HealthNeedGrid() {
 export function VisitBand() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-6">
-      <div className="grid overflow-hidden rounded-[2rem] bg-teal text-white shadow-[0_28px_60px_rgba(0,167,212),0.28)] lg:grid-cols-[1.2fr_0.8fr]">
+      <div className="grid overflow-hidden rounded-[2rem] bg-teal text-white shadow-[0_28px_60px_rgba(1,97,141,0.28)] lg:grid-cols-[1.2fr_0.8fr]">
         <div className="p-8 md:p-12">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-mint">Visit or enquire</p>
           <h2 className="font-display mt-3 max-w-xl text-3xl font-semibold md:text-4xl">
@@ -453,7 +453,7 @@ export function TeamStrip() {
 export function TrustStrip() {
   const points = [
     ['Authentic retail', 'Medicines and devices from regular supply channels — not a grey marketplace.'],
-    ['Prescriptions stay private', 'Files go through the prescription form. WhatsApp is for product questions only.'],
+    ['Prescriptions stay private', 'Use Upload prescription. WhatsApp opens with your form titles and answers; attach the file in that chat.'],
     ['Honest NAP', 'Address, phone, hours and license stay marked as placeholders until the store confirms them.'],
     ['Three verticals, one counter', 'Useful when you are already in town for a clinic visit and need more than a tablet.'],
   ];

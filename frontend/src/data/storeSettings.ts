@@ -16,7 +16,7 @@ export const storeSettings: StoreSettings = {
   city: 'Gilgit',
   district: 'Gilgit',
   phone: '[Phone number to be confirmed]',
-  whatsapp: '[WhatsApp number to be confirmed]',
+  whatsapp: '+923175758510',
   email: '[email to be confirmed]',
   openingHours: '[Opening hours to be confirmed]',
   foundingYear: undefined,
@@ -25,7 +25,7 @@ export const storeSettings: StoreSettings = {
   social: {
     facebook: undefined,
     instagram: undefined,
-    whatsapp: undefined,
+    whatsapp: '+923175758510',
   },
   announcement:
     'Serving Gilgit-Baltistan · Authentic medicines, surgical supplies and skin care — details marked as placeholders until confirmed.',
@@ -34,7 +34,7 @@ export const storeSettings: StoreSettings = {
   placeholders: {
     address: true,
     phone: true,
-    whatsapp: true,
+    whatsapp: false,
     email: true,
     hours: true,
     map: true,

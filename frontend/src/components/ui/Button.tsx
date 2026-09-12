@@ -8,11 +8,11 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: 'bg-teal text-white shadow-[0_10px_22px_rgba(0,167,212,0.28)] hover:-translate-y-0.5 hover:bg-teal-deep hover:shadow-[0_16px_30px_rgba(0,167,212,0.34)]',
+        primary: 'bg-teal text-white shadow-[0_10px_22px_rgba(1,97,141,0.28)] hover:-translate-y-0.5 hover:bg-teal-deep hover:shadow-[0_16px_30px_rgba(1,97,141,0.34)]',
         navy: 'bg-navy text-white shadow-[0_10px_22px_rgba(18,24,32,0.2)] hover:-translate-y-0.5 hover:bg-ink hover:shadow-[0_16px_30px_rgba(18,24,32,0.28)]',
-        outline: 'border border-line bg-white text-ink shadow-[0_6px_16px_rgba(18,24,32,0.04)] hover:-translate-y-0.5 hover:border-teal hover:text-teal hover:shadow-[0_12px_24px_rgba(0,167,212,0.12)]',
+        outline: 'border border-line bg-white text-ink shadow-[0_6px_16px_rgba(18,24,32,0.04)] hover:-translate-y-0.5 hover:border-teal hover:text-teal hover:shadow-[0_12px_24px_rgba(1,97,141,0.12)]',
         ghost: 'text-ink hover:bg-teal-soft',
-        brass: 'bg-brass text-white shadow-[0_10px_22px_rgba(225,34,1,0.28)] hover:-translate-y-0.5 hover:bg-[#b81c01] hover:shadow-[0_16px_30px_rgba(225,34,1,0.35)]',
+        brass: 'bg-brass text-white shadow-[0_10px_22px_rgba(1,85,122,0.28)] hover:-translate-y-0.5 hover:bg-[#014866] hover:shadow-[0_16px_30px_rgba(1,85,122,0.35)]',
       },
       size: {
         sm: 'h-9 px-3.5',

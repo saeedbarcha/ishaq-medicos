@@ -31,9 +31,9 @@ This guide is educational. It is not personal medical advice.`,
     excerpt: 'What we need on a prescription photo so a pharmacist can review it without delay.',
     content: `Take the photo in daylight, on a flat surface. Include the whole page — doctor name, patient name, date, and medicines.
 
-Accepted files: JPG, JPEG, PNG and PDF. We do not accept prescriptions through public WhatsApp product links.
+Accepted files: JPG, JPEG, PNG and PDF. Use Upload prescription so WhatsApp opens with your name, phone, email, file name and notes already filled. Attach the file in that same chat.
 
-In demo mode, files are validated in your browser and are not uploaded to a server.`,
+In demo mode, the file stays on your device until you attach it in WhatsApp.`,
     category: 'Prescriptions',
     tags: ['prescription', 'ordering'],
     relatedCategorySlugs: ['medicines'],

@@ -97,7 +97,7 @@ export function AdminLayout() {
     <>
       <div className="flex items-center justify-between gap-3">
         <Link to="/admin" className="flex min-w-0 items-center gap-2">
-          <img src="/images/brand/mark-on-dark.png" alt="" className="h-9 w-auto object-contain" />
+          <img src="/images/brand/mark.png" alt="" className="h-9 w-auto object-contain" />
           <span className="min-w-0">
             <p className="font-brand text-lg tracking-tight text-white">Admin</p>
             <p className="text-[11px] uppercase tracking-[0.16em] text-mint/80">Ishaq Medicos</p>

@@ -20,9 +20,14 @@ export function stockLabel(stock: number, threshold: number) {
   return { label: 'In stock', tone: 'ok' as const };
 }
 
-export function whatsappUrl(phone: string | undefined, text: string) {
-  if (!phone || phone.includes('[')) return null;
+export function whatsappUrl(phone: string | undefined, text: string, options?: { allowWithoutNumber?: boolean }) {
+  const encoded = encodeURIComponent(text);
+  if (!phone || phone.includes('[')) {
+    return options?.allowWithoutNumber ? `https://wa.me/?text=${encoded}` : null;
+  }
   const digits = phone.replace(/[^\d]/g, '');
-  if (digits.length < 11) return null;
-  return `https://wa.me/${digits}?text=${encodeURIComponent(text)}`;
+  if (digits.length < 11) {
+    return options?.allowWithoutNumber ? `https://wa.me/?text=${encoded}` : null;
+  }
+  return `https://wa.me/${digits}?text=${encoded}`;
 }
