@@ -1,0 +1,1 @@
+export { cosmetics } from './medicines';
